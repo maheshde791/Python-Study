@@ -1,0 +1,12 @@
+#! user/bin/python 
+tuple1 = (123, 'xyz', 'zara', 'abc')
+print("count the abc items : ", tuple1.count('abc'))
+print("Lenght of tuple : ", len(tuple1))
+tuple2 = (1,2,3,4,5,10,30,10)
+print("max value of tuple : ", max(tuple2))
+print("min value of tuple : ", min(tuple2))
+print("slicing : ", tuple2[0])
+print("slicing : ", tuple2[0:4])
+print("tuple",tuple2)
+print("concat", tuple1+tuple2)
+for x in tuple2: print(x)
